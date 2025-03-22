@@ -1,4 +1,5 @@
-package com.example.AddressBook.dto;
+package com.example.Address.Book.dto;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,11 +10,10 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class EmployeeDTO {
+public class ResponseDTO {
 
-    String name;
-    String email;
+    String message;
+    String status;
 
-    Long id;
 
 }

@@ -1,4 +1,5 @@
-package com.example.AddressBook.entities;
+package com.example.Address.Book.entities;
+
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
